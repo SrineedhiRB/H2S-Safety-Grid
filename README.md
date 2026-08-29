@@ -1,18 +1,19 @@
-# MRPL Safety Grid — Final Integrated Project
+# H₂S Safety Grid
 
-## Run in VS Code
+A real-time worker safety monitoring system designed for hazardous environments. The system monitors H₂S exposure, provides safety alerts, and presents worker and exposure information through a web-based dashboard.
 
-Open this folder in VS Code and right-click either:
-- `index.html` at the project root, or
-- `frontend/index.html`
+## Features
 
-Choose **Open with Live Server**.
-
-The root `index.html` redirects to the real application in `frontend/index.html`.
-
-## Stack
-
-HTML5, CSS3, Vanilla JavaScript, Supabase JS/PostgreSQL, MediaDevices API, BarcodeDetector/jsQR, Canvas API, local/session storage, and the Arduino/ESP32 sensor layer.
+- Real-time H₂S exposure monitoring
+- Worker-wise safety status tracking
+- Short-term and cumulative exposure monitoring
+- Instant safety alerts when thresholds are exceeded
+- Exposure history and time-based monitoring
+- Supervisor dashboard for monitoring multiple workers
+- Barcode-based worker identification
+- Camera and image-processing support
+- Supabase integration for storing and retrieving live data
+- Responsive web-based interface
 
 ## Frontend structure
 
